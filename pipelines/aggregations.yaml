@@ -1,5 +1,5 @@
-- promql: 'sum(device_health_count{version='1.0.1'})[5m] by (os)'
+- promql: "sum(device_health_count{version='1.0.1'})[5m] by (os)"
   as: total_devices_by_os_5m
 
-- promql: 'sum(device_health_count{os='ios'})[1m] by (version)'
+- promql: "sum(device_health_count{os='ios'})[1m] by (version)"
   as: concurrency_by_ios_version
