@@ -3,16 +3,16 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
-      "{field1}": {
+      "platform": {
         "type": "string"
       },
-      "tournamentId": {
+      "os": {
         "type": "integer"
       },
-      "device": {
+      "version": {
         "type": "string"
       }
     },
-    "required": ["{field1}", "tournamentId", "device"]
+    "required": ["platform", "os", "version"]
   }
 }
