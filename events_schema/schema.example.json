@@ -1,0 +1,18 @@
+{
+  "device_health": {
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "{field1}": {
+        "type": "string"
+      },
+      "tournamentId": {
+        "type": "integer"
+      },
+      "device": {
+        "type": "string"
+      }
+    },
+    "required": ["{field1}", "tournamentId", "device"]
+  }
+}

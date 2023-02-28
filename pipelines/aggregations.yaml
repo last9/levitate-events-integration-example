@@ -1,0 +1,5 @@
+- promql: 'sum(event_name{properties...})[1m] by (device, platform)'
+  as: event_name_by_device
+
+- promql: 'sum(event_name{properties...})[1m] by (region)'
+  as: concurrency_by_region
